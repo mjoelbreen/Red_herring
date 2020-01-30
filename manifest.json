@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Red Herring",
+    "description": "Un-profile yourself",
+    "version": "1.0.0",
+    "icons": {"128": "herring_icon.png"},
+    "browser_action": {
+        "default_icon": "herring_icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
