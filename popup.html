@@ -57,7 +57,7 @@
         }
 
         .version {
-            color: purple;
+            color: black;
             font-size: 18px;
         }
 
@@ -76,6 +76,19 @@
         .flex:hover {
             opacity: 0.4;
         }
+
+        #query-button {
+            margin: 10px;
+        }
+
+        #stop-button {
+            margin: 10px;
+            visibility: hidden;
+        }
+
+        footer {
+            padding: 20px 10px;
+        }
     </style>
 </head>
 <body>
@@ -87,13 +100,11 @@
     <div class="modal-content">
         <p>Un-profile yourself in just one click</p>
         <button id="query-button">Go Fish!</button>
-       
+        <button id="stop-button">Stop!</button>
+        <footer><em>&copy 2020 Martin Breen</em></footer>
     </div>
 
     <script src="popup.js">
-  
-
-  
     </script>
 </body>
 </html>
