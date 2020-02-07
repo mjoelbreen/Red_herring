@@ -63,7 +63,7 @@
 
         .flex-container {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             padding: 10px 22px;
         }
 
@@ -78,11 +78,33 @@
         }
 
         #query-button {
-            margin: 10px;
+            display: block;
+            margin: 25px auto;
+            width: 135px;
+            height: 50px;
+            color: white;
+            background-color: orange;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: "Work Sans", Roboto, "Open Sans", sans-serif;
+            border-radius: 10px;
+        }
+
+        #query-button:active {
+            opacity: 0.75;
         }
 
         #stop-button {
-            margin: 10px;
+            display: block;
+            margin: 0 auto;
+            width: 135px;
+            height: 50px;
+            color: white;
+            background-color: orangered;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: Roboto, "Open Sans", sans-serif;
+            border-radius: 10px;
             visibility: hidden;
         }
 
@@ -98,9 +120,11 @@
         </h1>
     </div>
     <div class="modal-content">
-        <p>Un-profile yourself in just one click</p>
+        <p>Make the cookies crumble in just one click</p>
         <button id="query-button">Go Fish!</button>
-        <button id="stop-button">Stop!</button>
+        <br>
+        <button id="stop-button">Stop</button>
+       
         <footer><em>&copy 2020 Martin Breen</em></footer>
     </div>
 

@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Red Herring",
-    "description": "Un-profile yourself",
+    "name": "Red Herring Cookie Throttler",
+    "description": "Make the cookies crumble",
     "version": "1.0.0",
     "icons": {"128": "herring_icon.png"},
     "browser_action": {
